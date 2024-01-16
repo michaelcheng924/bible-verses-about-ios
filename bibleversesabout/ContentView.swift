@@ -47,6 +47,7 @@ struct ContentView: View {
             }
             .navigationBarTitle("", displayMode: .inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     func fetchBibleVerseData() {
